@@ -1,0 +1,10 @@
+setuptools~=57.0.0
+click~=8.0.3
+llvmlite~=0.38.0
+numpy>=1.21.0
+numpy-quaternion~=2022.2.10.14.20.39
+numba~=0.55.1
+ase~=3.22.1
+matplotlib~=3.5.1
+scipy~=1.8.0
+tqdm~=4.62.3
