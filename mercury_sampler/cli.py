@@ -1,4 +1,6 @@
 #!/usr/bin/env python
+import subprocess
+
 import click
 import numpy as np
 from ase import Atoms
@@ -68,6 +70,7 @@ def sample(host_filename: str,
            kind: str,
            override: float,
            data: str):
+    subprocess.Popen(["resize", "-s", "30", "120"])
     print(_silver_sampler)
     print("Reading host structure from file: {}".format(host_filename))
     host_atoms = read(host_filename)
